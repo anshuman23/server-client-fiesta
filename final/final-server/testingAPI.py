@@ -1,6 +1,8 @@
 from eve import Eve
 from random import randint
 import base64
+import os
+import re
 
 people = {
 'schema': {
